@@ -15,11 +15,11 @@ function App () {
         <Router>
           <CssBaseline />
           <NavBar />
-          <Box sx={{flexGrow: 1, p: '2rem', width: '100%' }}>
+          <Box sx={{flexGrow: 1, padding: '2rem', pt: '100px', width: '100%' }}>
             <Box sx={{height: '70px'}}>
               <Routes>
                 <Route path='/' exact element={<Movies />} />
-                <Route path='/movies/:id' exact element={<Movies />} />
+                <Route path='/movie/:id' exact element={<MovieInformation />} />
                 <Route path='/actor/:id' exact element={<Actors />} />
                 <Route path='/profile/:id' exact element={<Profile />} />
               </Routes>

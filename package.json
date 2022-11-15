@@ -1,11 +1,12 @@
 {
-  "name": "house marketplace",
+  "name": "movieFlix",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@alan-ai/alan-sdk-web": "^1.8.38",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.11",
     "@mui/styled-engine-sc": "^5.10.6",
     "@mui/styles": "^5.8.4",
